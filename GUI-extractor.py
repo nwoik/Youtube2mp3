@@ -40,8 +40,8 @@ def extract_audio(link:str):
 
     audio_clip = AudioFileClip(audio_file)
     audio_clip.write_audiofile(audio_file[:-4] + ".mp3")
-    # text_insert(text_output, "Converted '%s' to mp3" % youtube_video.title)
-    # text_highlighting(text_output, youtube_video.title)
+    text_insert(text_output, "Converted '%s' to mp3" % youtube_video.title)
+    text_highlighting(text_output, youtube_video.title)
 
     os.remove(audio_file)
 
