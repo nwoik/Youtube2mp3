@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #121212, #222222, #383838);
+    color: #787878;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+nav h1 {
+    display: inline;
+    padding-inline: 0.5em;
+    font-size: 3em;
+    font-family: "Reklame Script", cursive;
+    color: aliceblue;
+    background-color: #cf1212;
+    border-radius: .2em;
+
+    
+}
+
+.home {
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+    width: 50%;
+}
+
+.url {
+    margin: auto;
+    border: solid 1px #787878;
+    padding: 3em;
+    background: linear-gradient(45deg, #121212, #222222, #383838);
+}
+
+label {
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.input-link {
+    width: 70%;
+    font-size: 1.5em;
+    display: inline-flex;
+    background-color: #424242;
+    border: solid 1px #787878;
+    color: aliceblue;
+}
+
+button {
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.search {
+    width: 25%;
+    display: inline-flex;
+}
+
+ol {
+    font-size: 1.2em;
+    width: 27%;
+    margin-inline: auto;
+    text-align: left;
+}
+
+.formats {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+    border: solid 1px #787878;
+    background: linear-gradient(45deg, #121212, #222222, #383838);
+}
+
+.formats form {
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    border: none;
+    display: inline-block;
+}
+
+select {
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 7em;
+}
+
+.formats button {
+    width: 50%;
+    margin-left: 25%;
+}
+
